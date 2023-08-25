@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-image: url("jaka.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80px;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: hotpink;
+    margin-right: 25px;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    background-color: rgb(255, 117, 67);
+    transition: 0.5s ease;
+    color: azure;
+}
